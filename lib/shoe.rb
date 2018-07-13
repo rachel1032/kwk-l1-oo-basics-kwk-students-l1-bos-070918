@@ -15,7 +15,7 @@ class Shoe
     
 def cobble
  
-  puts shoe.condition ="new"
+  puts shoe_cobble.condition ="new"
   puts "Your shoe is as good as new!"
     end
   end
