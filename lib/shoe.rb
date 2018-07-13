@@ -17,7 +17,7 @@ def cobble
  
   puts shoe_cobble.condition ="new"
   shoe_cobble = "Shoe has been repaired"
-  condition = new
+  puts condition = new
   puts "Your shoe is as good as new!"
     end
   end
