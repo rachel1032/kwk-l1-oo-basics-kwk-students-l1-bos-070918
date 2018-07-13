@@ -10,17 +10,12 @@ class Shoe
    # @size = size
    # @material = material
    # @condition = condition
-    
     end
     
-def cobble
- 
-  puts shoe_cobble.condition ="new"
-  shoe_cobble = "Shoe has been repaired"
-  puts condition = new
-  puts "Your shoe is as good as new!"
-    end
+  def cobble
+   puts "Your shoe is as good as new!"
   end
+end
   
    new_shoes = Shoe.new("Adidas")
     puts new_shoes.brand
