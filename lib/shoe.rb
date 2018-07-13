@@ -19,8 +19,12 @@ class Shoe
 end
   
    new_shoes = Shoe.new("Adidas")
-    puts new_shoes.brand
-    new_shoes.cobble
+   puts new_shoes.brand
+   puts new_shoes.condition
+   new_shoes.cobble
+   puts new_shoes.condition
+   
+   
    # puts new_shoes.color
 #    puts new_shoes.size
  #   puts new_shoes.material
