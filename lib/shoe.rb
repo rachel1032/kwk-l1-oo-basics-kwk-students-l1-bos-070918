@@ -16,7 +16,7 @@ class Shoe
 def cobble
  
   puts shoe_cobble.condition ="new"
-  puts show_cobble = "Shoe has been repaired!"
+  puts shoe_cobble = "Shoe has been repaired!"
   condition = new
   puts "Your shoe is as good as new!"
     end
