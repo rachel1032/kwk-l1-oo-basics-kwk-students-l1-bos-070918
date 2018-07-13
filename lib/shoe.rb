@@ -14,12 +14,13 @@ class Shoe
     
   def cobble
    puts "Your shoe is as good as new!"
-   condition = "new"
+   @condition = "new"
   end
 end
   
    new_shoes = Shoe.new("Adidas")
     puts new_shoes.brand
+    new_shoes.cobble
    # puts new_shoes.color
 #    puts new_shoes.size
  #   puts new_shoes.material
